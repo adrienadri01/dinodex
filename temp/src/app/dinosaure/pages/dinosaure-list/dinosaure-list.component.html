@@ -1,0 +1,35 @@
+<div>
+    <a mat-raised-button color="warn" class="link" [routerLink]="['/classifications']">Retour</a>
+</div>
+<div class="block">
+    <h1 [routerLink]="['/']">Liste des créatures</h1>
+</div>
+<div class="block" *ngIf="classification">
+    <a mat-raised-button color="primary" class="link" [routerLink]="['/dinosaure-add', classification]">Ajouter</a>
+</div>
+<div class="block" *ngIf="classification">
+    <a mat-raised-button color="primary" class="link" [routerLink]="['/dinosaure-tab', classification]">Tableau</a>
+</div>
+
+<mat-grid-list cols="4" rowHeight="2:2" gutterSize="15">
+
+    <mat-grid-tile *ngFor="let dinosaure of dinosaures">
+        
+        <a (click)="openDialog(dinosaure.id)">
+            <mat-grid-tile-header>
+                {{dinosaure.espece}}
+            </mat-grid-tile-header>
+            <img src={{dinosaure.image}}>
+        </a>
+        <mat-grid-tile-footer>
+            <div class="blockButton separator">
+                <button mat-raised-button color="primary" (click)="delete(dinosaure.id)">Supprimer</button>
+            </div>
+            <div class="blockButton">
+                <button mat-raised-button color="primary" [routerLink]="['/dinosaure-update', dinosaure.id]">Modifier</button>
+            </div>
+        </mat-grid-tile-footer>
+        
+    </mat-grid-tile>
+    
+</mat-grid-list>

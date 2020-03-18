@@ -1,0 +1,38 @@
+.link {
+    margin-top: 20px;   
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #C2185B;
+}
+
+h1 {
+    color: WHITE;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.divForm {
+    background-color: #B0bEC5;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 1rem;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    color: #808080;
+}
+
+mat-form-field {
+    width: 100%;
+}

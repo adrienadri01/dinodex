@@ -1,0 +1,36 @@
+.link {
+    margin-top: 20px;   
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #C2185B;
+}
+
+h1 {
+    color: WHITE;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+h1:hover {
+    color: #C2185B;
+}
+
+.block {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a {
+    color: WHITE;
+    cursor: pointer;
+}
+

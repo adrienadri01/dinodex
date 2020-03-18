@@ -1,0 +1,36 @@
+<div class="block">
+    <h1 [routerLink]="['/']">Liste des classifications</h1>
+</div>
+<div class="block">
+    <a mat-raised-button color="primary" class="link" [routerLink]="['/classification-add']">Ajouter</a>
+</div>
+<div class="block">
+    <a mat-raised-button color="primary" class="link" [routerLink]="['/classification-tab']">Tableau</a>
+</div>
+
+<mat-grid-list cols="3" rowHeight="2:2" gutterSize="15">
+
+    <mat-grid-tile *ngFor="let classification of classifications">
+        
+        <a [routerLink]="['/classifications', classification.id]">
+            <mat-grid-tile-header>
+                {{classification.nom}} - {{classification.regime}} - {{classification.milieu}}
+            </mat-grid-tile-header>
+            <img src={{classification.image}}>
+        </a>
+        <mat-grid-tile-footer>
+            <div class="blockButton separator">
+                <button mat-raised-button color="primary" (click)="delete(classification.id)">Supprimer</button>
+            </div>
+            <div class="blockButton">
+                <button mat-raised-button color="primary" [routerLink]="['/classification-update', classification.id]">Modifier</button>
+            </div>
+        </mat-grid-tile-footer>
+        
+    </mat-grid-tile>
+    
+
+</mat-grid-list>
+  
+  
+  

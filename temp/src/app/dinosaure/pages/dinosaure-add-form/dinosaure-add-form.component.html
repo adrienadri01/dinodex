@@ -1,0 +1,38 @@
+<div>
+    <a mat-raised-button color="warn" class="link" [routerLink]="['/classifications']">Retour</a>
+</div>
+
+<div class="divForm">
+
+    <h1>Formulaire d'ajout d'une créature</h1>
+
+    <form [formGroup]="DinosaureForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <mat-label>Entrez l'espèce :</mat-label>
+            <input matInput placeholder="Vélociraptor" formControlName="FormEspece" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Entrez la taille :</mat-label>
+            <input matInput placeholder="6" formControlName="FormTaille" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Entrez le poids :</mat-label>
+            <input matInput placeholder="150" formControlName="FormPoids" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Entrez la période de vie :</mat-label>
+            <input matInput placeholder="Crétacé" formControlName="FormPeriode" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Entrez l'ennemi :</mat-label>
+            <input matInput placeholder="Utahraptor" formControlName="FormEnnemi" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Entrez le lien de l'image :</mat-label>
+            <input matInput placeholder="Url image" formControlName="FormImage" required>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit" [disabled]="!DinosaureForm.valid">Ajouter</button>
+    </form>
+
+</div>
+

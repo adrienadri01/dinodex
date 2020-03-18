@@ -1,0 +1,37 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: WHITE;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+h1:hover {
+    color: #C2185B;
+}
+
+.blockLabel {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.blockInfo {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    padding-top: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-top: solid 2px #C2185B;
+}

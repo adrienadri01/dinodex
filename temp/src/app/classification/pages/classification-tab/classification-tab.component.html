@@ -1,0 +1,49 @@
+<div>
+    <a mat-raised-button color="warn" class="link" [routerLink]="['/classifications']">Retour</a>
+</div>
+<div class="block">
+    <h1 [routerLink]="['/']">Liste des classifications</h1>
+</div>
+<div class="block">
+    <a mat-raised-button color="primary" class="link" [routerLink]="['/classification-add']">Ajouter</a>
+</div>
+
+<table mat-table [dataSource]="classifications">
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> ID</th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="nom">
+        <th mat-header-cell *matHeaderCellDef>Nom</th>
+        <td mat-cell *matCellDef="let element"> {{element.nom}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="regime">
+        <th mat-header-cell *matHeaderCellDef>Régime</th>
+        <td mat-cell *matCellDef="let element"> {{element.regime}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="milieu">
+        <th mat-header-cell *matHeaderCellDef>Milieu</th>
+        <td mat-cell *matCellDef="let element"> {{element.milieu}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="image">
+        <th mat-header-cell *matHeaderCellDef>Image</th>
+        <td mat-cell *matCellDef="let element"> {{element.image}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="supprimer">
+        <th mat-header-cell *matHeaderCellDef>Supprimer</th>
+        <td mat-cell *matCellDef="let element"><a (click)="delete(element.id)"><i class="material-icons">delete_forever</i></a></td>
+    </ng-container>
+
+    <ng-container matColumnDef="modifier">
+        <th mat-header-cell *matHeaderCellDef>Modifier</th>
+        <td mat-cell *matCellDef="let element"><a [routerLink]="['/classification-update', element.id]"><i class="material-icons">subject</i></a></td>
+    </ng-container>
+    
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

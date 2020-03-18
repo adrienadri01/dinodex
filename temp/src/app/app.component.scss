@@ -1,0 +1,31 @@
+.sidenav-dinodex {
+    position: absolute;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+mat-sidenav {
+    background-color: #808080;
+    width: 10%;
+    padding: 10px;
+}
+
+.entite {
+  font-size: 11px;
+  margin-top: 15px;
+  padding: 2px;
+  border-top: solid 2px #C2185B;
+}
+
+mat-sidenav-content {
+  background-image: url("../assets/img/ark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center fixed;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+

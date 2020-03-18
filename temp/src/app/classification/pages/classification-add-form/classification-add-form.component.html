@@ -1,0 +1,32 @@
+<div>
+    <a mat-raised-button color="warn" class="link" [routerLink]="['/classifications']">Retour</a>
+</div>
+
+<div class="divForm">
+
+    <h1>Formulaire d'ajout d'une classification</h1>
+
+    <form [formGroup]="ClassificationForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <mat-label>Entrez le nom :</mat-label>
+            <input matInput placeholder="Grands prédateurs" formControlName="FormNom" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Entrez le régime :</mat-label>
+            <input matInput placeholder="Carnivore" formControlName="FormRegime" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Entrez le milieu :</mat-label>
+            <input matInput placeholder="Terrestre" formControlName="FormMilieu" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Entrez le lien de l'image :</mat-label>
+            <input matInput placeholder="Url image" formControlName="FormImage" required>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit" [disabled]="!ClassificationForm.valid">Ajouter</button>
+    </form>
+</div>
+
