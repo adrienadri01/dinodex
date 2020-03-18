@@ -2,7 +2,7 @@
 Dinodex project in angular - WARGNIER Adrien.
 
 Étapes pour lancer le projet :
-  1- Avoir d'installé nodeJs et npm.
+  1- Avoir d'installé nodeJs, git et npm.
   2- Se rendre sur le lien.
   3- Download le projet via le bouton "clone or download" de git
   4- Se rendre dans le dossier du projet (dinodex).
