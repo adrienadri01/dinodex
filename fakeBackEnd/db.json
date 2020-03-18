@@ -1,0 +1,245 @@
+{
+  "classifications": [
+    {
+      "nom": "Grands prédateurs",
+      "regime": "Carnivore",
+      "milieu": "Terrestre",
+      "image": "fefef",
+      "id": 0
+    },
+    {
+      "nom": "Prédateurs moyens",
+      "regime": "Carnivore",
+      "milieu": "Terrestre",
+      "image": "",
+      "id": 1
+    },
+    {
+      "nom": "Petits prédateurs",
+      "regime": "Carnivore",
+      "milieu": "Terrestre",
+      "image": "",
+      "id": 2
+    },
+    {
+      "nom": "Grands prédateurs ailés",
+      "regime": "Carnivore",
+      "milieu": "Aérien",
+      "image": "",
+      "id": 3
+    },
+    {
+      "nom": "Petits prédateurs ailés",
+      "regime": "Carnivore",
+      "milieu": "Aérien",
+      "image": "",
+      "id": 4
+    },
+    {
+      "nom": "Longs cous",
+      "regime": "Herbivore",
+      "milieu": "Terrestre",
+      "image": "",
+      "id": 5
+    },
+    {
+      "nom": "Cornus",
+      "regime": "Herbivore",
+      "milieu": "Terrestre",
+      "image": "",
+      "id": 6
+    },
+    {
+      "nom": "Deux pattes",
+      "regime": "Herbivore",
+      "milieu": "Terrestre",
+      "image": "",
+      "id": 7
+    },
+    {
+      "nom": "Grands créatures marines",
+      "regime": "Carnivore",
+      "milieu": "Aquatique",
+      "image": "",
+      "id": 8
+    },
+    {
+      "nom": "Petites créatures marines",
+      "regime": "Carnivore",
+      "milieu": "Aquatique",
+      "image": "",
+      "id": 9
+    },
+    {
+      "nom": "f",
+      "regime": "f",
+      "milieu": "f",
+      "image": "https://www.ark-survival.net/files/2015/06/800px-Spider.jpg",
+      "id": 14
+    },
+    {
+      "nom": "vfv",
+      "regime": "fv",
+      "milieu": "vfv",
+      "image": "https://i.pinimg.com/originals/a4/c9/f8/a4c9f87e0116c25b49a2471e632084bd.jpg",
+      "id": 15
+    },
+    {
+      "nom": "vvd",
+      "regime": "kbbk",
+      "milieu": "kbjk",
+      "image": "https://ichef.bbci.co.uk/news/410/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg",
+      "id": 16
+    },
+    {
+      "nom": "tetvdvd",
+      "regime": "tetevd",
+      "milieu": "etetvdv",
+      "image": "tetvdv",
+      "id": 17
+    },
+    {
+      "nom": "  bb",
+      "regime": "bb",
+      "milieu": "bb",
+      "image": "bb",
+      "id": 18
+    }
+  ],
+  "dinosaurs": [
+    {
+      "espece": "tyrannosaurus rex",
+      "taille": 5,
+      "poids": 3000,
+      "periode": "Crétacé",
+      "ennemi": "Spinosaurus",
+      "image": "tyrannosaure.jpg",
+      "classificationId": 1,
+      "id": 1
+    },
+    {
+      "espece": "tyrannosaurus rex",
+      "taille": 5,
+      "poids": 3000,
+      "periode": "Crétacé",
+      "ennemi": "Spinosaurus",
+      "image": "tyrannosaure.jpg",
+      "classificationId": 1,
+      "id": 2
+    },
+    {
+      "espece": "tyrannosaurus rexljjb",
+      "taille": 5,
+      "poids": 3000,
+      "periode": "Crétacé",
+      "ennemi": "Spinosaurus",
+      "image": "tyrannosaure.jpg",
+      "classificationId": 1,
+      "id": 4
+    },
+    {
+      "espece": "tyrannosaurus rex",
+      "taille": 5,
+      "poids": 3000,
+      "periode": "Crétacé",
+      "ennemi": "Spinosaurus",
+      "image": "tyrannosaure.jpg",
+      "classificationId": 1,
+      "id": 5
+    },
+    {
+      "espece": "c",
+      "taille": "c",
+      "poids": "c",
+      "periode": "c",
+      "ennemi": "c",
+      "image": "c",
+      "id": 6
+    },
+    {
+      "espece": "vv",
+      "taille": "  vv",
+      "poids": "vv",
+      "periode": "vv",
+      "ennemi": "vv",
+      "image": "vv",
+      "classificationId": null,
+      "id": 7
+    },
+    {
+      "espece": "titou",
+      "taille": "bb",
+      "poids": "bb",
+      "periode": "bb",
+      "ennemi": "bb",
+      "image": "bb",
+      "id": 8
+    },
+    {
+      "espece": "bullet",
+      "taille": ",gbff",
+      "poids": "gfcs",
+      "periode": "FD",
+      "ennemi": "xf",
+      "image": "tes",
+      "classificationId": 3,
+      "id": 11
+    },
+    {
+      "espece": "proof",
+      "taille": "d",
+      "poids": "d",
+      "periode": "d",
+      "ennemi": "d",
+      "image": "d",
+      "classificationId": 3,
+      "id": 12
+    },
+    {
+      "espece": "titou",
+      "taille": "titou",
+      "poids": "titou",
+      "periode": "titou",
+      "ennemi": "titou",
+      "image": "titou",
+      "id": 13
+    },
+    {
+      "espece": "saoule",
+      "taille": "vfvfv",
+      "poids": "vfvf",
+      "periode": "vfvfv",
+      "ennemi": "vfvf",
+      "image": "https://www.ark-survival.net/files/2015/06/800px-Spider.jpg",
+      "classificationId": 0,
+      "id": 15
+    },
+    {
+      "espece": "jhbd",
+      "taille": "gvrd",
+      "poids": "ure",
+      "periode": "vr",
+      "ennemi": "uvyre",
+      "image": "uyt",
+      "classificationId": 0,
+      "id": 16
+    },
+    {
+      "espece": "gee",
+      "taille": "gege",
+      "poids": "geg",
+      "periode": "geg",
+      "ennemi": "gege",
+      "image": "g",
+      "classificationId": 0,
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "adrien",
+      "password": "adrien"
+    }
+  ]
+}
