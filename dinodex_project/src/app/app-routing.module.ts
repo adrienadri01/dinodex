@@ -53,12 +53,7 @@ const routes: Routes = [
   {
     path: 'dinosaure-tab/:classificationId',
     component: DinosaureTabComponent
-  },
-  {
-    path: '**',
-    component: ClassificationListComponent
   }
-
 ];
 
 @NgModule({

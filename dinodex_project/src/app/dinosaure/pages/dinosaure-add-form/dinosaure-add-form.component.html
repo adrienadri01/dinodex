@@ -1,5 +1,5 @@
 <div>
-    <a mat-raised-button color="warn" class="link" [routerLink]="['/classifications']">Retour</a>
+    <a mat-raised-button color="warn" class="link" *ngIf="classification" [routerLink]="['/classifications', classification]">Retour</a>
 </div>
 
 <div class="divForm">

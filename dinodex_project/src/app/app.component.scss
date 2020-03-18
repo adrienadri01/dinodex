@@ -12,11 +12,24 @@ mat-sidenav {
     padding: 10px;
 }
 
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .entite {
-  font-size: 11px;
-  margin-top: 15px;
+  font-size: 13px;
+  margin-bottom: 30px;
   padding: 2px;
   border-top: solid 2px #C2185B;
+}
+
+h2 {
+  color: #C2185B;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 mat-sidenav-content {
